@@ -551,9 +551,9 @@ section {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   /* color: #173b6c; */
-  color: white;
-  background-color: #173b6c;
-  border-radius: 25px;
+  color: white !important;
+  background-color: #173b6c !important;
+  border-radius: 25px !important;
 }
 
 .portfolio #portfolio-flters li:last-child {
