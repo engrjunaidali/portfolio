@@ -1,12 +1,7 @@
 <div id="main" class="site-main">
     <div id="main-content" class="single-page-content">
         <div id="primary" class="content-area">
-            <div class="page-title">
-                <h1>Portfolio</h1>
-                <!-- <div class="page-subtitle">
-                                                <h4>My Works</h4>
-                                            </div> -->
-            </div>
+
 
             <div id="content" class="page-content site-content single-post" role="main">
                 <div class="row">
@@ -19,152 +14,65 @@
                                 </li>
 
                                 <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>
+                                    <a class="filter btn btn-sm btn-link" data-group="category_websites">Websites</a>
                                 </li>
 
                                 <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_direct-url">Direct URL</a>
+                                    <a class="filter btn btn-sm btn-link" data-group="category_web_apps">Web Applications</a>
                                 </li>
 
-                                <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_image">Image</a>
-                                </li>
 
-                                <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
-                                </li>
 
-                                <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_video">Video</a>
-                                </li>
-
-                                <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_vimeo-video">Vimeo Video</a>
-                                </li>
-
-                                <li>
-                                    <a class="filter btn btn-sm btn-link" data-group="category_youtube-video">YouTube Video</a>
-                                </li>
                             </ul>
 
                             <!-- Portfolio Grid -->
                             <div class="portfolio-grid three-columns shuffle">
-                                <!-- Portfolio Item 1 -->
-                                <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
+
+                                <!-- websites -->
+                                <figure class="item direct" data-groups='["category_all", "category_websites"]'>
                                     <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/1.jpg" alt="Full Project 2" title="" />
-                                        <a href="portfolio-project-2.html" class="ajax-page-load"></a>
-                                    </div>
-
-                                    <i class="far fa-file-alt"></i>
-                                    <h4 class="name">Full Project 2</h4>
-                                    <span class="category">Detailed</span>
-                                </figure>
-                                <!-- /Portfolio Item 1 -->
-
-                                <!-- Portfolio Item 2 -->
-                                <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/2.jpg" alt="YouTube Video 2" title="" />
-                                        <a href="https://www.youtube.com/embed/F-1weFCiYBA" class="lightbox mfp-iframe" title="YouTube Video 2"></a>
-                                    </div>
-
-                                    <i class="fab fa-youtube"></i>
-                                    <h4 class="name">YouTube Video 2</h4>
-                                    <span class="category">Video, YouTube Video</span>
-                                </figure>
-                                <!-- /Portfolio Item 2 -->
-
-                                <!-- Portfolio Item 3 -->
-                                <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/3.jpg" alt="Image 2" title="" />
-                                        <a class="lightbox" title="Image 2" href="./img/portfolio/full/3.jpg"></a>
-                                    </div>
-
-                                    <i class="fa fa-image"></i>
-                                    <h4 class="name">Image 2</h4>
-                                    <span class="category">Image</span>
-                                </figure>
-                                <!-- /Portfolio Item 3 -->
-
-                                <!-- Portfolio Item 4 -->
-                                <figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/4.jpg" alt="SoundCloud Audio 1" title="" />
-                                        <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio 1"></a>
-                                    </div>
-
-                                    <i class="fas fa-volume-up"></i>
-                                    <h4 class="name">SoundCloud Audio 1</h4>
-                                    <span class="category">SoundCloud</span>
-                                </figure>
-                                <!-- /Portfolio Item 4 -->
-
-                                <!-- Portfolio Item 5 -->
-                                <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_vimeo-video"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/5.jpg" alt="Vimeo Video" title="" />
-                                        <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe" title="Vimeo Video"></a>
-                                    </div>
-
-                                    <i class="fab fa-vimeo-v"></i>
-                                    <h4 class="name">Vimeo Video</h4>
-                                    <span class="category">Video, Vimeo Video</span>
-                                </figure>
-                                <!-- /Portfolio Item 5 -->
-
-                                <!-- Portfolio Item 6 -->
-                                <figure class="item lbvideo" data-groups='["category_all", "category_video", "category_youtube-video"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
-                                        <a href="https://www.youtube.com/embed/ZK8REu-8pGw" class="lightbox mfp-iframe" title="YouTube Video 1"></a>
-                                    </div>
-
-                                    <i class="fab fa-youtube"></i>
-                                    <h4 class="name">YouTube Video 1</h4>
-                                    <span class="category">Video, YouTube Video</span>
-                                </figure>
-                                <!-- /Portfolio Item 6 -->
-
-                                <!-- Portfolio Item 7 -->
-                                <figure class="item standard" data-groups='["category_all", "category_detailed"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/7.jpg" alt="Full Project 1" title="" />
-                                        <a href="portfolio-project-1.html" class="ajax-page-load"></a>
-                                    </div>
-
-                                    <i class="far fa-file-alt"></i>
-                                    <h4 class="name">Full Project 1</h4>
-                                    <span class="category">Detailed</span>
-                                </figure>
-                                <!-- /Portfolio Item 7 -->
-
-                                <!-- Portfolio Item 8 -->
-                                <figure class="item direct" data-groups='["category_all", "category_direct-url"]'>
-                                    <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/8.jpg" alt="Direct URL" title="" />
-                                        <a target="_blank" href="https://themeforest.net/user/lmpixels/portfolio"></a>
+                                        <img src="./img/portfolio/web/4.webp" alt="Websites" title="" />
+                                        <a target="_blank" href="https://villagedukaan.com/"></a>
                                     </div>
 
                                     <i class="fa fa-link"></i>
-                                    <h4 class="name">Direct URL</h4>
-                                    <span class="category">Direct URL</span>
+                                    <h4 class="name">Village Dukaan</h4>
+                                    <span class="category">Websites</span>
                                 </figure>
-                                <!-- /Portfolio Item 8 -->
-
-                                <!-- Portfolio Item 9 -->
-                                <figure class="item lbimage" data-groups='["category_all", "category_image"]'>
+                                <figure class="item direct" data-groups='["category_all", "category_websites"]'>
                                     <div class="portfolio-item-img">
-                                        <img src="./img/portfolio/9.jpg" alt="Image 1" title="" />
-                                        <a class="lightbox" title="Image 1" href="./img/portfolio/full/5.jpg"></a>
+                                        <img src="./img/portfolio/web/all-devices-white.png" alt="Websites" title="" />
+                                        <a target="_blank" href="https://regalmediapress.com/"></a>
                                     </div>
 
-                                    <i class="fa fa-image"></i>
-                                    <h4 class="name">Image 1</h4>
-                                    <span class="category">Image</span>
+                                    <i class="fa fa-link"></i>
+                                    <h4 class="name">Regal Media Press</h4>
+                                    <span class="category">Websites</span>
                                 </figure>
-                                <!-- /Portfolio Item 9 -->
+
+                                <!-- web applications -->
+
+                                <figure class="item direct" data-groups='["category_all", "category_web_apps"]'>
+                                    <div class="portfolio-item-img">
+                                        <img src="./img/portfolio/cms/1 pos.webp" alt="Websites" title="" />
+                                        <a target="_blank" href="#"></a>
+                                    </div>
+
+                                    <i class="fa fa-link"></i>
+                                    <h4 class="name">POS System</h4>
+                                    <span class="category">Web Applications</span>
+                                </figure>
+                                <figure class="item direct" data-groups='["category_all", "category_web_apps"]'>
+                                    <div class="portfolio-item-img">
+                                        <img src="./img/portfolio/cms/2. rental_system.webp" alt="Websites" title="" />
+                                        <a target="_blank" href="#"></a>
+                                    </div>
+
+                                    <i class="fa fa-link"></i>
+                                    <h4 class="name">Rental System</h4>
+                                    <span class="category">Web Applications</span>
+                                </figure>
+
                             </div>
                             <!-- /Portfolio Content -->
                         </div>
